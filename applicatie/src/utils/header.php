@@ -10,9 +10,14 @@ function getHeader($pagina = 'uitgelogd'){
   $vluchttoevoegen = '';
   $privacystatement = '';
 
-  if($pagina === 'uitgelogd'){
+  if($pagina === 'index'){
     ?>
-      <header class="groteheader"><a class="link" href="/index.php">Gelre airport</a></header>
+      <header class="groteheader"><a class="link" href="index.php">Gelre airport</a></header>
+    <?php
+  }
+  elseif($pagina === 'uitgelogd'){
+    ?>
+      <header class="groteheader"><a class="link" href="../index.php">Gelre airport</a></header>
     <?php
   }
   else{
@@ -45,7 +50,7 @@ function getHeader($pagina = 'uitgelogd'){
     }
       ?>
         <header>
-          <a class="link" href="/index.php">Gelre airport</a>
+          <a class="link" href="../index.php">Gelre airport</a>
           <nav>
             <ul class="navigatielijst">
               <li class="submenu <?=$vluchten?> <?=$vluchtenM?>">Vluchten

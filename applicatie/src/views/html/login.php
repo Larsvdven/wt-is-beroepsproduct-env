@@ -1,6 +1,6 @@
 <?php
-  require_once 'src/utils/header.php';
-  require_once 'src/utils/footer.php';
+  require_once '../../utils/header.php';
+  require_once '../../utils/footer.php';
 
   session_start();
 ?>
@@ -11,7 +11,7 @@
         <meta charset="utf-8">
         <title>Login Gelre Airport</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="../../../public/css/stylesheet.css">
     </head>
     <body>
 

@@ -14,7 +14,7 @@
     <body>
 
     <?php
-      getHeader();
+      getHeader('index');
     ?>
 
         <main id="indexmain">
